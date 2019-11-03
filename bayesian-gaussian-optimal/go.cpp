@@ -4,7 +4,7 @@
 #include <time.h>
 
 
-  #define SUBS 10000
+#define SUBS 10000
 
 void discretize ( double *, const int, const int, const double );
 void initialize ( double *, const int, const double );
@@ -31,7 +31,7 @@ int main (){
     	
    		discretize ( middle, SUBS, 0, delta ); 		// 0;2Pi DISCRETIZATION
 			
-        initialize ( likelihood, SUBS, 0.0 );   		//LIKELIHOOD VECTOR INITIALIZATION
+                initialize ( likelihood, SUBS, 0.0 );   		//LIKELIHOOD VECTOR INITIALIZATION
 		
 		initialize ( cumPrior, SUBS, 0.0 );			//CUMULATIVE VECTOR INITIALIZATION
  					
