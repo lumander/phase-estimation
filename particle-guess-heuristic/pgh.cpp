@@ -4,7 +4,7 @@
 #include <time.h>
 
 
-  #define SUBS 10000
+#define SUBS 10000
 
 void discretize ( double *, const int, const int, const double );
 void hoodUpdate ( const int, double *, const int, const double *, const int );
